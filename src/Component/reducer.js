@@ -1,4 +1,4 @@
-export const reducer = (state,action)=>{
+export const reducer = (state={counter:0},action)=>{
    const {type,payload}= action
    switch(type){
 
